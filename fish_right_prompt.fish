@@ -13,9 +13,9 @@ function fish_right_prompt
   else
     set_color blue
   end
-  printf ' < %s' (_convertsecs (math $cmd_duration / 1000))
+#  printf ' < %s' (_convertsecs (math $cmd_duration / 1000))
   set_color 666666
-  printf ' < %s' (date +%H:%M:%S)
+  printf ' | %s' (date +%H:%M:%S)
   set_color normal
 end
 

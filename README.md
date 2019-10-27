@@ -1,11 +1,12 @@
-### Lambda
+[![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg)](http://fishshell.com)
+![GitHub](https://img.shields.io/github/license/ckaserer/fish-theme-lambda)
+![Maintenance](https://img.shields.io/maintenance/yes/2019)
 
-[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
-[![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](http://fishshell.com)
+<p align="center">
+<img alt="fish logo" src="https://fishshell.com/assets/img/Terminal_Logo_CRT_Small.png">
+</p>
 
-<br/>
-
-#### Screenshot
+### Lambda Theme
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/hasanozgan/theme-lambda/master/screenshot.png">
@@ -20,14 +21,7 @@
 #### [Fisherman]
 
 ```fish
-fisher i lambda
-```
-
-##### [Oh-My-Fish]
-
-```fish
-omf install lambda
+fisher add ckaserer/fish-theme-lambda
 ```
 
 [Fisherman]: https://github.com/fisherman/fisherman
-[Oh-My-Fish]: https://github.com/oh-my-fish/oh-my-fish
